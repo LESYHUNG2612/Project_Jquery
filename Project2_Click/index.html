@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="slyte.css">
+</head>
+
+<body>
+    <div class="DangKy">
+        <form action="xulyfrom.html" method="POST">
+            <table width="600" height="300" border="2" cellpadding="5" align="center">
+                <tr>
+                    <th colspan="2">From Register</th>
+                </tr>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" placeholder="Tên Đăng nhập" size="40" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" placeholder="Nhập Mật Khẩu" size="40" name="pass"></td>
+                </tr>
+                <tr>
+                    <td>Nhập lại Password</td>
+                    <td><input type="password" placeholder="Nhập Mật Khẩu" size="40" name="pass"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="reset" name="btreset" value="Reset">
+                        <input type="submit" name="btok" value="OK">
+                        <button class="NutDangNhap">Log In</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="DangNhap">
+        <!--Method = “post” là thuộc tính thông thường được sử dụng trong một form.
+            Ngoài ra có thêm một số thuộc tính khác như Method=”get”.-->
+        <form action="xulyfrom.html" method="POST">
+            <!--Thuộc tính action dùng để link đến một trang web khác khi người dùng 
+             nhập vào username + password và nhấp OK  ở ví dụ trên là xulyform.html.-->
+            <table width="600" height="300" border="2" cellpadding="5" align="center">
+                <tr>
+                    <th colspan="2">From Log In</th>
+                </tr>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" placeholder="Tên Đăng nhập" size="40" name="name"></td>
+                    <!--Placeholder là đoạn text sẽ hiện ra trong ô nhập user và password 
+                    nhằm mục đích hướng dẫn người dùng.-->
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" placeholder="Nhập Mật Khẩu" size="40" name="pass"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="reset" name="btreset" value="Reset">
+                        <input type="submit" name="btok" value="OK">
+                        <!--Thẻ <input> để chúng ta tạo một ô để nhập văn bản vào.
+                         Các type trong thẻ <input> phải nhập đúng giá trị.-->
+                        <button class="NutDangKy">Register</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
