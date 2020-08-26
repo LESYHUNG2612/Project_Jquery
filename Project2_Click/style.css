@@ -23,9 +23,9 @@ padding: 0;
     left: 50%;
     transform: translateX(-50%);
 }
-.NutDangKy{
-    float: center;
-}
 .NutDangNhap{
-    float: center; 
+    float: right;
+}
+.NutDangKy{
+    float: right; 
 }

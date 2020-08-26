@@ -1,0 +1,37 @@
+
+.Container{
+    text-align: center;
+}
+body{
+    background-image: url(img/background.jpg);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.HieuUng{
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.NDKhoi{
+    padding: 20px;
+    border: 2p solid  rgb(12, 235, 79);
+    background: rgb(6, 236, 217);
+    color: black;
+}
+h3{
+    background: rgb(240, 110, 4);
+    padding: 10px 15px;
+    color: rgb(12, 235, 79);
+}
+h3:hover {
+    background-image: url(img/dow.jpg)  no-repeat 96% #0a0a0a;
+
+}
+h3.Color{
+    background: rgba(7, 22, 240, 0.548);
+}
+.nut{
+    text-align: center;
+    color: rgb(14, 13, 13);
+}
