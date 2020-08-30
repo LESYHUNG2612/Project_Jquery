@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.5.1.js"></script>
+    <script src="main.js"></script>
+    <!--thư viện tự tạo-->
+
+    <!--Thư viện tải về-->
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="fancybox-2.1.7/fancybox-2.1.7/lib/jquery.mousewheel.pack.js?v=3.1.3"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="fancybox-2.1.7/fancybox-2.1.7/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="fancybox-2.1.7/fancybox-2.1.7/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="fancybox-2.1.7/fancybox-2.1.7/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+	<script type="text/javascript" src="fancybox-2.1.7/fancybox-2.1.7/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="fancybox-2.1.7/fancybox-2.1.7/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<script type="text/javascript" src="fancybox-2.1.7/fancybox-2.1.7/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="fancybox-2.1.7/fancybox-2.1.7/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+     <!--Thư viện tải về-->
+</head>
+
+<body>
+    <div class="NoiDung">
+        <h1 class="TieuDe"> Hiệu Ứng Accordion+ScollTop</h1>
+        <div class="Khoi">
+            <h2 class="TieuDeKhoi">About<img class="Xo" src="img/dow.jpg" alt="" width="16px" height="16px"></h2>
+            <div class="NoiDungKhoi">
+                <p>Bức thư thứ 800
+                    “Phía sau kia còn có một đám người chờ đợi cơ hội để
+                    cười nhạo và khinh thường bạn.”
+                    Bức Thư Thứ 25
+                    “Xã hội này rất thực tế, khi bạn không có thực người
+                    ta sẽ nhìn vào vẻ bên ngoài của bạn.”
+                    Bức Thư Thứ 797
+                    “Tuổi trẻ ai cũng phải gặp những lúc bị người
+                    coi thường thậm chí là khinh bỉ, tất cả đều là
+                    những chuyện rất bình thường.”
+                </p>
+                <div class="AnhNoiDung">
+                    <a href="img/1.jpg" rel="NhomAnh"><img class="img" src="img/1.jpg"></a>
+                    <a href="img/2.jpg" rel="NhomAnh"><img class="img" src="img/2.jpg"></a>
+                    <a href="img/3.jpg" rel="NhomAnh"><img class="img" src="img/3.jpg"></a>
+                    <a href="img/5.jpg" rel="NhomAnh"><img class="img" src="img/4.jpg"></a>
+                    <a href="img/6.jpg" rel="NhomAnh"><img class="img" src="img/5.jpg"></a>
+                    <a href="img/7.jpg" rel="NhomAnh"><img class="img" src="img/6.jpg"></a>
+                    <a href="img/8.jpg" rel="NhomAnh"> <img class="img" src="img/7.jpg"></a>
+                    <a href="img/9.jpg" rel="NhomAnh"> <img class="img" src="img/8.jpg"></a>
+                </div>
+                <!--Ảnh Nội Dung-->
+            </div>
+            <!--NoiDungKhoi-->
+            
+        </div>
+        <!--Khối-->
+        <div class="Khoi">
+            <h2 class="TieuDeKhoi">Admissions<img  src="img/dow.jpg" alt="" width="16px" height="16px"></h2>
+            <div class="NoiDungKhoi">
+                <p>Bức thư thứ 800
+                    “Phía sau kia còn có một đám người chờ đợi cơ hội để
+                    cười nhạo và khinh thường bạn.”
+                    Bức Thư Thứ 25
+                    “Xã hội này rất thực tế, khi bạn không có thực người
+                    ta sẽ nhìn vào vẻ bên ngoài của bạn.”
+                    Bức Thư Thứ 797
+                    “Tuổi trẻ ai cũng phải gặp những lúc bị người
+                    coi thường thậm chí là khinh bỉ, tất cả đều là
+                    những chuyện rất bình thường.”</p>
+            </div>
+        </div>
+        <div class="Khoi">
+            <h2 class="TieuDeKhoi">Education<img src="img/dow.jpg" alt="" width="16px" height="16px"></h2>
+            <div class="NoiDungKhoi">
+                <p>Bức thư thứ 800
+                    “Phía sau kia còn có một đám người chờ đợi cơ hội để
+                    cười nhạo và khinh thường bạn.”
+                    Bức Thư Thứ 25
+                    “Xã hội này rất thực tế, khi bạn không có thực người
+                    ta sẽ nhìn vào vẻ bên ngoài của bạn.”
+                    Bức Thư Thứ 797
+                    “Tuổi trẻ ai cũng phải gặp những lúc bị người
+                    coi thường thậm chí là khinh bỉ, tất cả đều là
+                    những chuyện rất bình thường.”</p>
+            </div>
+        </div>
+        <div class="Khoi">
+            <h2 class="TieuDeKhoi">Research<img src="img/dow.jpg" alt="" width="16px" height="16px"></h2>
+            <div class="NoiDungKhoi">
+                <p>Bức thư thứ 800
+                    “Phía sau kia còn có một đám người chờ đợi cơ hội để
+                    cười nhạo và khinh thường bạn.”
+                    Bức Thư Thứ 25
+                    “Xã hội này rất thực tế, khi bạn không có thực người
+                    ta sẽ nhìn vào vẻ bên ngoài của bạn.”
+                    Bức Thư Thứ 797
+                    “Tuổi trẻ ai cũng phải gặp những lúc bị người
+                    coi thường thậm chí là khinh bỉ, tất cả đều là
+                    những chuyện rất bình thường.”</p>
+            </div>
+        </div>
+        <div class="Khoi">
+            <h2 class="TieuDeKhoi">Community<img src="img/dow.jpg" alt="" width="16px" height="16px"></h2>
+            <div class="NoiDungKhoi">
+                <p>Bức thư thứ 800
+                    “Phía sau kia còn có một đám người chờ đợi cơ hội để
+                    cười nhạo và khinh thường bạn.”
+                    Bức Thư Thứ 25
+                    “Xã hội này rất thực tế, khi bạn không có thực người
+                    ta sẽ nhìn vào vẻ bên ngoài của bạn.”
+                    Bức Thư Thứ 797
+                    “Tuổi trẻ ai cũng phải gặp những lúc bị người
+                    coi thường thậm chí là khinh bỉ, tất cả đều là
+                    những chuyện rất bình thường.”</p>
+            </div>
+        </div>
+    </div><!--Nội Dung-->
+</body>
+
+</html>

@@ -16,4 +16,3 @@ $(function(){
         //from đăng nhập hiện
     });
 });
-// chưa sửa lỗi hiệu ứng

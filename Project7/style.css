@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/nen.jpeg);
+}
+.NoiDung{
+    width: 600px;
+    margin: auto;
+    font-family: "Josefin Slab", serif;;
+}
+h1.TieuDe{
+    font-family: "Josefin Slab", serif;
+    font-weight: 100;
+    text-align: center;
+    margin: 17px 0;
+    font-size: 37px;
+    margin-bottom: 100px;
+}
+.Khoi{
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+h2.TieuDeKhoi{
+    height: 40px;
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+    cursor: pointer;
+   transition: 0.4;
+}
+h2.TieuDeKhoi:hover{
+    color: rgb(8, 205, 240);
+}
+h2.TieuDeKhoi:hover img{
+    margin-right: 0px;
+   
+}
+.TieuDeKhoi img{
+    overflow: hidden;
+    margin-top: 12px;
+    color: red;
+    font-weight: 200;
+    font-size: 50px;
+    float: right;
+    transition: 0.4s;
+    margin-right: -20px;
+    /*transform: rotate(180deg);*/
+    /*quay một góc đô*/
+}/*  định dạng nút ảnh mũi tên xổ xuống*/
+.img{
+    float: left;
+    width: 60px;
+    height: 50px;
+    margin-right: 10px;
+}
+.AnhNoiDung{
+    overflow: hidden;
+}
+.NoiDungKhoi{
+    color: rgba(24, 23, 23, 0.979);
+    font-size: 20px;
+    line-height: 24px;
+}
+.TieuDeKhoi.Xanh{
+    color: chartreuse;
+}
+.TieuDeKhoi.Xanh img{
+    margin-right: 0;
+    transform: rotate(180deg);
+    /*để ảnh mủi tên xoay 180 độ*/
+    margin-top: 12px;
+}
+ 
