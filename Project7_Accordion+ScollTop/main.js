@@ -14,6 +14,6 @@ $(document).ready(function(){
         // và trả về giá trị ban đầu nếu click lần 2
     });
     //phong to ảnh có sẵn trong file hiệu ứng
-    $('.AnhNoiDung a').fancybox({openEffect : 'elastic'});
+    $('.AnhNoiDung a').fancybox({});
 
 });
